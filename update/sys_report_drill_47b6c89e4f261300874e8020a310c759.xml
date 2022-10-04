@@ -2,10 +2,13 @@
     <sys_report_drill action="INSERT_OR_UPDATE">
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
+        <aggregation_source/>
         <allow_data_label_overlap>false</allow_data_label_overlap>
+        <apply_alias>false</apply_alias>
         <axis_max_color display_value="UI14 Blue Light">b0d449b3d7332100fa6c0c12ce610383</axis_max_color>
         <axis_min_color display_value="White">65b303c7a9fe3dba00629aff95ee3597</axis_min_color>
         <bar_unstack>false</bar_unstack>
+        <calendar/>
         <chart_background_color/>
         <chart_border_color/>
         <chart_border_radius>0</chart_border_radius>
@@ -45,6 +48,7 @@
         <field>u_requested_for</field>
         <field_list/>
         <filter/>
+        <formatting_configuration/>
         <from/>
         <funnel_neck_percent>30</funnel_neck_percent>
         <gauge_autoscale>true</gauge_autoscale>
@@ -102,14 +106,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2018-06-09 05:17:43</sys_created_on>
         <sys_id>47b6c89e4f261300874e8020a310c759</sys_id>
-        <sys_mod_count>0</sys_mod_count>
         <sys_name>Monthly Active Requests by Requested for</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_report_drill_47b6c89e4f261300874e8020a310c759</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-06-09 05:17:43</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <title>Monthly Active Requests by Requested for</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
